@@ -108,13 +108,10 @@ func merge2(nums1 []int, m int, nums2 []int, n int) {
 			temp = temp1
 			i++
 		}
-		fmt.Println(temp)
 		res = append(res, temp)
 	}
-	fmt.Println(res)
 
 	copy(nums1, res)
-	fmt.Println(nums1)
 }
 
 func pathSum(root *TreeNode, targetSum int) int {
